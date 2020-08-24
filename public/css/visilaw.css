@@ -1,0 +1,79 @@
+.v-table {
+	border-collapse: collapse;
+	border: 1px solid black; }
+.v-table td {
+	border: 1px solid black;
+	padding: 6px; }
+.v-table td span {
+	line-height: 110%; }
+.v-header-row td {
+	background: #d9d9d9;; }
+.v-subheader-row td {
+	background: #f2f2f2;; }
+.center {
+	text-align:center; }
+.box {
+	border: solid 1px; }
+.strong {
+	font-weight: bold; }
+.em {
+	font-style: italic; }
+.underline {
+	text-decoration: underline; }
+
+.v-s:after {
+	content: "\2588"; }
+.v-p-e:before {
+	font-size: 180%;
+	position:relative;
+	top:.2em;
+	left:.22em;
+	content: "\25D6"; }
+.v-p-e:after {
+	font-size: 180%;
+	position:relative;
+	top:.2em;
+	right:.22em;
+	content: "\25D7"; }
+.v-p-i:before {
+	font-weight: bold;
+	text-decoration: underline;
+	content: "If"; }
+.v-p-i:after {
+	font-weight: bold;
+	text-decoration: underline;
+	content: "then"; }
+.v-p-c {
+	font-weight: bold;
+	border: solid 1px; }
+.v-s-s {
+	text-decoration: underline; }
+.v-s-e:before {
+	font-size: 110%;
+	content: "\25C0"; }
+.v-s-e:after {
+	font-size: 110%;
+	position:relative;
+	left:.1em;
+	content: "\25B6"; }
+.v-s-i:before {
+	text-decoration: underline;
+	content: "If"; }
+.v-s-i:after {
+	text-decoration: underline;
+	content: "then"; }
+.v-s-c {
+	border: solid 1px; }
+.v-c-p:before {
+	font-weight: bold;
+	text-shadow: -1px 0;
+	content: "("; }
+.v-c-p:after {
+	font-weight: bold;
+	text-shadow: 1px 0;
+	content: ")"; }
+
+blockquote {
+	color: black; }
+blockquote p {
+	color: black; }
